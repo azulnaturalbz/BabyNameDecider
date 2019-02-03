@@ -59,7 +59,7 @@
             android:inputType="textPersonName"
             android:ems="10"
             android:id="@+id/addBabyNameTxt"
-            android:selectAllOnFocus="false" android:hint="Add New Baby Name Here" android:layout_marginBottom="24dp"
+            android:selectAllOnFocus="false" android:hint="Add Baby Name Here" android:layout_marginBottom="24dp"
             app:layout_constraintBottom_toTopOf="@+id/addBabyNameBtn" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
             android:textColor="@android:color/background_light"/>
