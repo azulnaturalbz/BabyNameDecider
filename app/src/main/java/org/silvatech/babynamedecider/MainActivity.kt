@@ -3,6 +3,7 @@ package org.silvatech.babynamedecider
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.google.android.gms.ads.AdRequest
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 import com.google.android.gms.ads.MobileAds;
@@ -17,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         MobileAds.initialize(this, "ca-app-pub-9497317358583649~2568968579")
-
+        adView.loadAd(AdRequest.Builder().build())
         decideBtn.setOnClickListener {
 
             val random = Random()
