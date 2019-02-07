@@ -24,7 +24,7 @@
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Baby Name Decider"
+            android:text="@string/baby_name_decider"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             android:textSize="30sp" app:fontFamily="@font/muli_bold"
@@ -39,9 +39,9 @@
             android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
             android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.481"
-            app:layout_constraintTop_toBottomOf="@+id/adView"/>
+            app:layout_constraintTop_toBottomOf="@+id/adView" android:contentDescription="@string/baby_name_decider_logo"/>
     <Button
-            android:text="Decide"
+            android:text="@string/decide"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/decideBtn" app:layout_constraintEnd_toEndOf="parent"
@@ -55,15 +55,16 @@
             android:inputType="textPersonName"
             android:ems="10"
             android:id="@+id/addBabyNameTxt"
-            android:selectAllOnFocus="false" android:hint="Add Baby Name Here"
+            android:selectAllOnFocus="false" android:hint="@string/add_baby_name_here"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
             android:textColor="@android:color/background_light" android:layout_marginTop="100dp"
             app:layout_constraintTop_toBottomOf="@+id/selectedBabyNameText"
             app:layout_constraintBottom_toTopOf="@+id/addBabyNameBtn"
-            app:layout_constraintVertical_chainStyle="packed" android:textSize="24sp"/>
+            app:layout_constraintVertical_chainStyle="packed" android:textSize="24sp"
+            tools:ignore="UnusedAttribute" android:importantForAutofill="no"/>
     <Button
-            android:text="ADD NAME"
+            android:text="@string/add_name"
             android:layout_width="210dp"
             android:layout_height="wrap_content"
             android:id="@+id/addBabyNameBtn"

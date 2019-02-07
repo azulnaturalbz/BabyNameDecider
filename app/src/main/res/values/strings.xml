@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Baby Name Decider</string>
+    <string name="baby_name_decider">Baby Name Decider</string>
+    <string name="decide">Decide</string>
+    <string name="add_baby_name_here">Add Baby Name Here</string>
+    <string name="add_name">ADD NAME</string>
+    <string name="baby_name_decider_logo">Baby Name Decider Logo</string>
 </resources>
