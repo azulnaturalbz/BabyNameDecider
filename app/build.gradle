@@ -10,8 +10,8 @@ android {
         applicationId "org.silvatech.babynamedecider"
         minSdkVersion 15
         targetSdkVersion 27
-        versionCode 3
-        versionName "1.500"
+        versionCode 4
+        versionName "1.800"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
